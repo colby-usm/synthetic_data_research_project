@@ -1,5 +1,7 @@
 Annotation Pipeline README
 
+This pipeline describes how the user can recreate the dataset useed in our test split.
+
 Environment Setup
 1. Install Python 3.10 or higher.
 2. Install OpenCV:
