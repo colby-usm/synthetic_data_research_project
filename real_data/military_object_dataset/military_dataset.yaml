@@ -1,0 +1,18 @@
+path: /kaggle/input/military-assets-dataset-12-classes-yolo8-format/military_object_dataset
+test: test/images
+train: train/images
+val: val/images
+
+names:
+  0: camouflage_soldier
+  1: weapon
+  2: military_tank
+  3: military_truck
+  4: military_vehicle
+  5: civilian
+  6: soldier
+  7: civilian_vehicle
+  8: military_artillery
+  9: trench
+  10: military_aircraft
+  11: military_warship
