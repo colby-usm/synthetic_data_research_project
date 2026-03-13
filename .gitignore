@@ -1,1 +1,52 @@
-original_dataset/
+# Images
+*.png
+*.jpeg
+*.jpg
+
+# large data
+data/real_data_v2/original_dataset/
+data/RefCOCO/
+
+# Serialized data
+*.pickle
+*.pkl
+*.p
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.env/
+.envrc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# MacOS
+.DS_Store
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Build / dist
+build/
+dist/
+*.egg-info/
+
+# IDEs
+.vscode/
+.idea/
+
+# Dataset artifacts
+*.npy
+*.npz
+
+# Misc
+*.swp
