@@ -7,8 +7,8 @@ from collections import defaultdict
 # CONFIG
 # ==============================
 
-ANNOTATION_PATH = "data/real_data_v2/custom_subset/annotations_fixed.json"
-IMAGE_DIR = "data/real_data_v2/custom_subset/images/"
+ANNOTATION_PATH = "data/synthetic_data_v1/annotations.json"
+IMAGE_DIR = "data/synthetic_data_v1/"
 
 BOX_COLOR = (0, 255, 0)
 TEXT_COLOR = (0, 255, 0)
