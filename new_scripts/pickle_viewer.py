@@ -1,6 +1,6 @@
 import pickle
 from pprint import pprint
-with open("refcoco/refs(unc).p", "rb") as f:
+with open("data/RefCOCO/refcoco/refs(unc).p", "rb") as f:
     data = pickle.load(f)
     print(len(data))
     print(type(data[0]))

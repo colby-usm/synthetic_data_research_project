@@ -6,8 +6,8 @@ import logging
 # -----------------------------
 # Configuration
 # -----------------------------
-ANNOTATIONS_PATH = "./synthetic_data_v1/annotations.json"
-OUTPUT_FILE = "synthetic_annotation_density_heatmap.pdf"
+ANNOTATIONS_PATH = "./data/synthetic_data_v1/annotations.json"
+OUTPUT_FILE = "synthetic_heatmap"
 
 GRID_SIZE = 512
 
