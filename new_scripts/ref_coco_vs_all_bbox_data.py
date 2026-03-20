@@ -84,18 +84,18 @@ TRUCK = 3
 # REFCOCO BOXPLOT
 # ==========================================================
 
-plt.boxplot(
-    ref_values,
-    positions=[REF],
-    widths=0.55,
-    patch_artist=True,
-    boxprops=dict(facecolor=BLUE, linewidth=1.5),
-    whiskerprops=dict(linewidth=1.5),
-    capprops=dict(linewidth=1.5),
-    medianprops=dict(color="black", linewidth=2),
-    showmeans=True,
-    meanprops=dict(marker='D', markerfacecolor='yellow', markeredgecolor='black')
-)
+# plt.boxplot(
+#     ref_values,
+#     positions=[REF],
+#     widths=0.55,
+#     patch_artist=True,
+#     boxprops=dict(facecolor=BLUE, linewidth=1.5),
+#     whiskerprops=dict(linewidth=1.5),
+#     capprops=dict(linewidth=1.5),
+#     medianprops=dict(color="black", linewidth=2),
+#     showmeans=True,
+#     meanprops=dict(marker='D', markerfacecolor='yellow', markeredgecolor='black')
+# )
 
 # ==========================================================
 # MILITARY TANK BARS
