@@ -2,20 +2,11 @@ import os
 import cv2
 import json
 import argparse
-import threading
-import queue
 
 # ==========================
 # CLI ARGUMENTS
 # ==========================
-parser = argparse.ArgumentParser(description="COCO Referring Expression Writer")
-
-parser.add_argument(
-    "--annotator",
-    type=str,
-    required=True,
-    help="Annotator name (required)"
-)
+parser = argparse.ArgumentParser(description="COCO Referring Expression Reviewer")
 
 parser.add_argument(
     "--image",
@@ -26,9 +17,6 @@ parser.add_argument(
 
 args = parser.parse_args()
 
-# normalize annotator name
-ANNOTATOR = args.annotator.strip().lower().replace(" ", "_")
-
 # ==========================
 # CONFIG
 # ==========================
@@ -36,7 +24,7 @@ IMAGES_DIR = "images"
 ANNOTATIONS_PATH = "annotations.json"
 REFEXP_PATH = "refexps.json"
 
-WINDOW_NAME = "Referring Expression Writer"
+WINDOW_NAME = "Referring Expression Reviewer"
 
 # ==========================
 # LOAD COCO DATA
@@ -69,40 +57,7 @@ else:
     refexps = []
 
 # ==========================
-# ID HELPERS
-# ==========================
-def next_ref_id():
-    if not refexps:
-        return 0
-    return max(r["ref_id"] for r in refexps) + 1
-
-
-def next_sent_id(annotator):
-    max_id = 0
-
-    for r in refexps:
-        for s in r["sentences"]:
-            sid = s["sent_id"]
-
-            if isinstance(sid, str) and sid.startswith(annotator + "_"):
-                try:
-                    num = int(sid.split("_")[1])
-                    max_id = max(max_id, num)
-                except:
-                    pass
-
-    return f"{annotator}_{max_id + 1}"
-
-
-def find_ref_by_ann(ann_id):
-    for r in refexps:
-        if r["ann_id"] == ann_id:
-            return r
-    return None
-
-
-# ==========================
-# UTILS
+# HELPERS
 # ==========================
 def xywh_to_xyxy(bbox):
     x, y, w, h = bbox
@@ -145,39 +100,27 @@ def draw_annotations(img, target_ann, all_anns):
     return canvas
 
 
+def find_ref_by_ann(ann_id):
+    for r in refexps:
+        if r["ann_id"] == ann_id:
+            return r
+    return None
+
+
 def save_refexps():
     with open(REFEXP_PATH, "w") as f:
         json.dump(refexps, f, indent=4)
 
 
-# ==========================
-# THREADED INPUT
-# Input runs on a background thread so the main thread is free
-# to keep pumping the OpenCV event loop via waitKey().
-# ==========================
-input_queue = queue.Queue()
-
-def input_worker(prompt):
-    val = input(prompt)
-    input_queue.put(val)
-
-def prompt_async(prompt):
-    """Start a background input() call and return immediately."""
-    t = threading.Thread(target=input_worker, args=(prompt,), daemon=True)
-    t.start()
-
-def wait_for_input(vis):
-    """
-    Keep the OpenCV window alive with waitKey(50) until the background
-    thread puts a result in the queue.
-    """
+def wait_for_key():
+    """Block in OpenCV until a recognised key is pressed. Returns the character."""
     while True:
-        cv2.imshow(WINDOW_NAME, vis)
-        cv2.waitKey(50)
-        try:
-            return input_queue.get_nowait()
-        except queue.Empty:
-            pass
+        key = cv2.waitKey(0) & 0xFF
+        if key in (13, 10):   # Enter
+            return "enter"
+        ch = chr(key).lower()
+        if ch in ("d", "r", "q"):
+            return ch
 
 
 # ==========================
@@ -196,9 +139,8 @@ if args.image is not None:
 # ==========================
 total_images = len(images)
 
-print("\nReferring Expression Writer")
-print(f"Annotator: {ANNOTATOR}")
-print("ENTER = skip | q = quit\n")
+print("\nReferring Expression Reviewer")
+print("ENTER=keep | d=delete | r=rewrite (then type in terminal) | q=quit\n")
 
 cv2.namedWindow(WINDOW_NAME, cv2.WINDOW_NORMAL)
 
@@ -227,42 +169,61 @@ for img_idx in range(start_index, total_images):
 
     for ann in anns:
 
-        vis = draw_annotations(frame, ann, anns)
-        cat = category_name(ann["category_id"])
-
-        prompt_async(f"Ann {ann['id']} ({cat}) -> ")
-        expr = wait_for_input(vis).strip()
-
-        if expr.lower() == "q":
-            quit_flag = True
-            break
-
-        if expr == "":
-            continue
-
         ref = find_ref_by_ann(ann["id"])
 
-        sent_id = next_sent_id(ANNOTATOR)
+        if not ref or not ref["sentences"]:
+            continue
 
-        sentence_entry = {
-            "sent_id": sent_id,
-            "annotator": ANNOTATOR,
-            "sent": expr
-        }
+        cat = category_name(ann["category_id"])
+        print(f"\nAnn {ann['id']} ({cat})")
 
-        if ref:
-            ref["sentences"].append(sentence_entry)
+        vis = draw_annotations(frame, ann, anns)
+        cv2.imshow(WINDOW_NAME, vis)
 
-        else:
-            refexps.append({
-                "ref_id": next_ref_id(),
-                "ann_id": ann["id"],
-                "image_id": image_id,
-                "category_id": ann["category_id"],
-                "sentences": [sentence_entry]
-            })
+        # iterate over sentences
+        sent_idx = 0
+        while sent_idx < len(ref["sentences"]):
+            sentence = ref["sentences"][sent_idx]
 
-        save_refexps()
+            print(f"  [{sent_idx+1}/{len(ref['sentences'])}] "
+                  f"[{sentence['annotator']}] \"{sentence['sent']}\"")
+            print("  ENTER=keep | d=delete | r=rewrite | q=quit")
+
+            action = wait_for_key()
+
+            if action == "q":
+                quit_flag = True
+                break
+
+            elif action == "enter":
+                sent_idx += 1
+
+            elif action == "d":
+                ref["sentences"].pop(sent_idx)
+                print("  Deleted.")
+                save_refexps()
+                # don't increment — next sentence slides into this index
+
+            elif action == "r":
+                # input() is fine here — the OpenCV window stays open,
+                # we just need the user to click the terminal to type
+                new_text = input("  New expression: ").strip()
+                if new_text:
+                    ref["sentences"][sent_idx]["sent"] = new_text
+                    print("  Updated.")
+                    save_refexps()
+                else:
+                    print("  Empty input, skipping rewrite.")
+                sent_idx += 1
+
+        # clean up refs with no sentences left
+        if not ref["sentences"]:
+            refexps.remove(ref)
+            save_refexps()
+            print(f"  Ref {ref['ref_id']} removed (no sentences left).")
+
+        if quit_flag:
+            break
 
     if quit_flag:
         break
