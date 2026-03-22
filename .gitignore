@@ -4,7 +4,7 @@
 *.jpg
 
 # large data
-data/real_data_v2/original_dataset/
+original_dataset/
 data/RefCOCO/
 
 # Serialized data
