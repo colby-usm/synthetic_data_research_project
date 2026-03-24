@@ -6945,6 +6945,11 @@
                 "sent_id": "colby_375",
                 "annotator": "colby",
                 "sent": "the front tank in the element"
+            },
+            {
+                "sent_id": "iralys_388",
+                "annotator": "iralys",
+                "sent": "the first tank"
             }
         ]
     },
@@ -6958,6 +6963,11 @@
                 "sent_id": "colby_376",
                 "annotator": "colby",
                 "sent": "the middle tank in the element"
+            },
+            {
+                "sent_id": "iralys_389",
+                "annotator": "iralys",
+                "sent": "the second tank"
             }
         ]
     },
@@ -6971,6 +6981,11 @@
                 "sent_id": "colby_377",
                 "annotator": "colby",
                 "sent": "the rear tank in the element"
+            },
+            {
+                "sent_id": "iralys_390",
+                "annotator": "iralys",
+                "sent": "the third tank"
             }
         ]
     },
@@ -6984,6 +6999,11 @@
                 "sent_id": "colby_378",
                 "annotator": "colby",
                 "sent": "the front tank in the element"
+            },
+            {
+                "sent_id": "iralys_391",
+                "annotator": "iralys",
+                "sent": "the tank in front"
             }
         ]
     },
@@ -6997,6 +7017,11 @@
                 "sent_id": "colby_379",
                 "annotator": "colby",
                 "sent": "the middle tank in the element"
+            },
+            {
+                "sent_id": "iralys_392",
+                "annotator": "iralys",
+                "sent": "the tank in the middle"
             }
         ]
     },
@@ -7010,6 +7035,11 @@
                 "sent_id": "colby_380",
                 "annotator": "colby",
                 "sent": "the rear tank in the element"
+            },
+            {
+                "sent_id": "iralys_393",
+                "annotator": "iralys",
+                "sent": "the tank at the end"
             }
         ]
     },
@@ -7023,6 +7053,11 @@
                 "sent_id": "colby_381",
                 "annotator": "colby",
                 "sent": "the front tank in the element"
+            },
+            {
+                "sent_id": "iralys_394",
+                "annotator": "iralys",
+                "sent": "the tank leading the other tanks"
             }
         ]
     },
@@ -7036,6 +7071,11 @@
                 "sent_id": "colby_382",
                 "annotator": "colby",
                 "sent": "the middle tank in the element"
+            },
+            {
+                "sent_id": "iralys_395",
+                "annotator": "iralys",
+                "sent": "the tank following the first tank"
             }
         ]
     },
@@ -7049,6 +7089,11 @@
                 "sent_id": "colby_383",
                 "annotator": "colby",
                 "sent": "the rear tank in the element"
+            },
+            {
+                "sent_id": "iralys_396",
+                "annotator": "iralys",
+                "sent": "the tank following the second tank"
             }
         ]
     },
@@ -7062,6 +7107,11 @@
                 "sent_id": "colby_384",
                 "annotator": "colby",
                 "sent": "the front tank"
+            },
+            {
+                "sent_id": "iralys_397",
+                "annotator": "iralys",
+                "sent": "the tank all the way in the front"
             }
         ]
     },
@@ -7075,6 +7125,11 @@
                 "sent_id": "colby_385",
                 "annotator": "colby",
                 "sent": "the middle tank"
+            },
+            {
+                "sent_id": "iralys_398",
+                "annotator": "iralys",
+                "sent": "the center tank"
             }
         ]
     },
@@ -7088,6 +7143,11 @@
                 "sent_id": "colby_386",
                 "annotator": "colby",
                 "sent": "the rear tank"
+            },
+            {
+                "sent_id": "iralys_399",
+                "annotator": "iralys",
+                "sent": "the tank all the way in the back"
             }
         ]
     },
@@ -7101,6 +7161,11 @@
                 "sent_id": "colby_387",
                 "annotator": "colby",
                 "sent": "the far tank"
+            },
+            {
+                "sent_id": "iralys_400",
+                "annotator": "iralys",
+                "sent": "the tank following the truck"
             }
         ]
     },
@@ -7114,6 +7179,11 @@
                 "sent_id": "colby_388",
                 "annotator": "colby",
                 "sent": "the middle tank"
+            },
+            {
+                "sent_id": "iralys_401",
+                "annotator": "iralys",
+                "sent": "the tank in the center"
             }
         ]
     },
@@ -7127,6 +7197,11 @@
                 "sent_id": "colby_389",
                 "annotator": "colby",
                 "sent": "the rear tank"
+            },
+            {
+                "sent_id": "iralys_402",
+                "annotator": "iralys",
+                "sent": "the tank following all the other tanks"
             }
         ]
     },
@@ -7140,6 +7215,11 @@
                 "sent_id": "colby_390",
                 "annotator": "colby",
                 "sent": "the front tank"
+            },
+            {
+                "sent_id": "iralys_403",
+                "annotator": "iralys",
+                "sent": "the tank at the beggining of the line"
             }
         ]
     },
@@ -7153,6 +7233,11 @@
                 "sent_id": "colby_391",
                 "annotator": "colby",
                 "sent": "the middle tank"
+            },
+            {
+                "sent_id": "iralys_404",
+                "annotator": "iralys",
+                "sent": "the tank at the middle of the line"
             }
         ]
     },
@@ -7166,6 +7251,11 @@
                 "sent_id": "colby_392",
                 "annotator": "colby",
                 "sent": "the rear tank"
+            },
+            {
+                "sent_id": "iralys_405",
+                "annotator": "iralys",
+                "sent": "the tank at the end of the line"
             }
         ]
     },
@@ -7179,6 +7269,11 @@
                 "sent_id": "colby_393",
                 "annotator": "colby",
                 "sent": "the tank behind the pickup truck"
+            },
+            {
+                "sent_id": "iralys_406",
+                "annotator": "iralys",
+                "sent": "the tank behind the silver truck"
             }
         ]
     },
@@ -7192,6 +7287,11 @@
                 "sent_id": "colby_394",
                 "annotator": "colby",
                 "sent": "the tank behind the front tank"
+            },
+            {
+                "sent_id": "iralys_407",
+                "annotator": "iralys",
+                "sent": "the tank following the first tank"
             }
         ]
     },
@@ -7205,6 +7305,11 @@
                 "sent_id": "colby_395",
                 "annotator": "colby",
                 "sent": "the rear tank"
+            },
+            {
+                "sent_id": "iralys_408",
+                "annotator": "iralys",
+                "sent": "the tank following the second tank"
             }
         ]
     },
@@ -7218,6 +7323,11 @@
                 "sent_id": "colby_396",
                 "annotator": "colby",
                 "sent": "the tank in the front"
+            },
+            {
+                "sent_id": "iralys_409",
+                "annotator": "iralys",
+                "sent": "the leading tank"
             }
         ]
     },
@@ -7230,6 +7340,11 @@
             {
                 "sent_id": "colby_397",
                 "annotator": "colby",
+                "sent": "the middle tank"
+            },
+            {
+                "sent_id": "iralys_410",
+                "annotator": "iralys",
                 "sent": "the middle tank"
             }
         ]
@@ -7244,6 +7359,11 @@
                 "sent_id": "colby_398",
                 "annotator": "colby",
                 "sent": "the rear tank in the convoy"
+            },
+            {
+                "sent_id": "iralys_411",
+                "annotator": "iralys",
+                "sent": "the last tank"
             }
         ]
     },
@@ -7257,6 +7377,11 @@
                 "sent_id": "colby_399",
                 "annotator": "colby",
                 "sent": "the front tank in the convoy"
+            },
+            {
+                "sent_id": "iralys_412",
+                "annotator": "iralys",
+                "sent": "the first tank on the road"
             }
         ]
     },
@@ -7270,6 +7395,11 @@
                 "sent_id": "colby_400",
                 "annotator": "colby",
                 "sent": "the center tank in the convoy"
+            },
+            {
+                "sent_id": "iralys_413",
+                "annotator": "iralys",
+                "sent": "the middle tank on the road"
             }
         ]
     },
@@ -7283,6 +7413,11 @@
                 "sent_id": "colby_401",
                 "annotator": "colby",
                 "sent": "the rear tank in the convoy"
+            },
+            {
+                "sent_id": "iralys_414",
+                "annotator": "iralys",
+                "sent": "the last tank on the road"
             }
         ]
     },
@@ -7296,6 +7431,11 @@
                 "sent_id": "colby_402",
                 "annotator": "colby",
                 "sent": "the first tank in the element"
+            },
+            {
+                "sent_id": "iralys_415",
+                "annotator": "iralys",
+                "sent": "the first tank on the street"
             }
         ]
     },
@@ -7309,6 +7449,11 @@
                 "sent_id": "colby_403",
                 "annotator": "colby",
                 "sent": "the second tank in the element"
+            },
+            {
+                "sent_id": "iralys_416",
+                "annotator": "iralys",
+                "sent": "the second tank on the street"
             }
         ]
     },
@@ -7322,6 +7467,11 @@
                 "sent_id": "colby_404",
                 "annotator": "colby",
                 "sent": "the third tank in the element"
+            },
+            {
+                "sent_id": "iralys_417",
+                "annotator": "iralys",
+                "sent": "the last tank on the street"
             }
         ]
     },
@@ -7335,6 +7485,11 @@
                 "sent_id": "colby_405",
                 "annotator": "colby",
                 "sent": "the first tank in the element"
+            },
+            {
+                "sent_id": "iralys_418",
+                "annotator": "iralys",
+                "sent": "the first tank on the path"
             }
         ]
     },
@@ -7348,6 +7503,11 @@
                 "sent_id": "colby_406",
                 "annotator": "colby",
                 "sent": "the second tank in the element"
+            },
+            {
+                "sent_id": "iralys_419",
+                "annotator": "iralys",
+                "sent": "the second tank on the path"
             }
         ]
     },
@@ -7361,6 +7521,11 @@
                 "sent_id": "colby_407",
                 "annotator": "colby",
                 "sent": "the third tank in the element"
+            },
+            {
+                "sent_id": "iralys_420",
+                "annotator": "iralys",
+                "sent": "the third tank on the path"
             }
         ]
     },
@@ -7374,6 +7539,11 @@
                 "sent_id": "colby_408",
                 "annotator": "colby",
                 "sent": "the first tank in the element"
+            },
+            {
+                "sent_id": "iralys_421",
+                "annotator": "iralys",
+                "sent": "the first tank on the dirt path"
             }
         ]
     },
@@ -7387,6 +7557,11 @@
                 "sent_id": "colby_409",
                 "annotator": "colby",
                 "sent": "the second tank in the element"
+            },
+            {
+                "sent_id": "iralys_422",
+                "annotator": "iralys",
+                "sent": "the second tank on the dirt path"
             }
         ]
     },
@@ -7400,6 +7575,11 @@
                 "sent_id": "colby_410",
                 "annotator": "colby",
                 "sent": "the third tank in the element"
+            },
+            {
+                "sent_id": "iralys_423",
+                "annotator": "iralys",
+                "sent": "the third tank on the dirth path"
             }
         ]
     },
@@ -7413,6 +7593,11 @@
                 "sent_id": "colby_411",
                 "annotator": "colby",
                 "sent": "the first tank in the convoy"
+            },
+            {
+                "sent_id": "iralys_424",
+                "annotator": "iralys",
+                "sent": "the first tank on the trail"
             }
         ]
     },
@@ -7426,6 +7611,11 @@
                 "sent_id": "colby_412",
                 "annotator": "colby",
                 "sent": "the second tank in the convoy"
+            },
+            {
+                "sent_id": "iralys_425",
+                "annotator": "iralys",
+                "sent": "the second tank on the trail"
             }
         ]
     },
@@ -7439,6 +7629,11 @@
                 "sent_id": "colby_413",
                 "annotator": "colby",
                 "sent": "the third tank in the convoy"
+            },
+            {
+                "sent_id": "iralys_426",
+                "annotator": "iralys",
+                "sent": "the third tank on the trail"
             }
         ]
     },
@@ -7451,6 +7646,11 @@
             {
                 "sent_id": "colby_414",
                 "annotator": "colby",
+                "sent": "the first tank in the convoy"
+            },
+            {
+                "sent_id": "iralys_427",
+                "annotator": "iralys",
                 "sent": "the first tank in the convoy"
             }
         ]
@@ -7465,6 +7665,11 @@
                 "sent_id": "colby_415",
                 "annotator": "colby",
                 "sent": "the second tank in the convoy"
+            },
+            {
+                "sent_id": "iralys_428",
+                "annotator": "iralys",
+                "sent": "the second tank in the convoy"
             }
         ]
     },
@@ -7477,6 +7682,11 @@
             {
                 "sent_id": "colby_416",
                 "annotator": "colby",
+                "sent": "the third tank in the convoy"
+            },
+            {
+                "sent_id": "iralys_429",
+                "annotator": "iralys",
                 "sent": "the third tank in the convoy"
             }
         ]
@@ -7491,6 +7701,11 @@
                 "sent_id": "colby_417",
                 "annotator": "colby",
                 "sent": "the front tank"
+            },
+            {
+                "sent_id": "iralys_430",
+                "annotator": "iralys",
+                "sent": "the first tank in the line"
             }
         ]
     },
@@ -7504,6 +7719,11 @@
                 "sent_id": "colby_418",
                 "annotator": "colby",
                 "sent": "the center tank"
+            },
+            {
+                "sent_id": "iralys_431",
+                "annotator": "iralys",
+                "sent": "the second tank in line"
             }
         ]
     },
@@ -7517,6 +7737,11 @@
                 "sent_id": "colby_419",
                 "annotator": "colby",
                 "sent": "the rear tank"
+            },
+            {
+                "sent_id": "iralys_432",
+                "annotator": "iralys",
+                "sent": "the third tank in line"
             }
         ]
     },
@@ -7530,6 +7755,11 @@
                 "sent_id": "colby_420",
                 "annotator": "colby",
                 "sent": "the tank in the front"
+            },
+            {
+                "sent_id": "iralys_433",
+                "annotator": "iralys",
+                "sent": "the tank in between two trucks"
             }
         ]
     },
@@ -7543,6 +7773,11 @@
                 "sent_id": "colby_421",
                 "annotator": "colby",
                 "sent": "the tank in the rear"
+            },
+            {
+                "sent_id": "iralys_434",
+                "annotator": "iralys",
+                "sent": "the tank behind the white box truck"
             }
         ]
     },
@@ -7556,6 +7791,11 @@
                 "sent_id": "colby_422",
                 "annotator": "colby",
                 "sent": "the tank in very front"
+            },
+            {
+                "sent_id": "iralys_435",
+                "annotator": "iralys",
+                "sent": "the tank in front of the white box truck"
             }
         ]
     },
@@ -7569,6 +7809,11 @@
                 "sent_id": "colby_423",
                 "annotator": "colby",
                 "sent": "the rear tank in the element"
+            },
+            {
+                "sent_id": "iralys_436",
+                "annotator": "iralys",
+                "sent": "the tank following the white box truck"
             }
         ]
     },
@@ -7581,6 +7826,11 @@
             {
                 "sent_id": "colby_424",
                 "annotator": "colby",
+                "sent": "the tank in front of the box truck"
+            },
+            {
+                "sent_id": "iralys_437",
+                "annotator": "iralys",
                 "sent": "the tank in front of the box truck"
             }
         ]
@@ -7595,6 +7845,11 @@
                 "sent_id": "colby_425",
                 "annotator": "colby",
                 "sent": "the tank behind the box truck"
+            },
+            {
+                "sent_id": "iralys_438",
+                "annotator": "iralys",
+                "sent": "the tank behind the box truck"
             }
         ]
     },
@@ -7608,6 +7863,11 @@
                 "sent_id": "colby_426",
                 "annotator": "colby",
                 "sent": "the tank leading"
+            },
+            {
+                "sent_id": "iralys_439",
+                "annotator": "iralys",
+                "sent": "the tank infront of the box truck"
             }
         ]
     },
@@ -7621,6 +7881,11 @@
                 "sent_id": "colby_427",
                 "annotator": "colby",
                 "sent": "the tank following"
+            },
+            {
+                "sent_id": "iralys_440",
+                "annotator": "iralys",
+                "sent": "the last tank"
             }
         ]
     },
@@ -7634,6 +7899,11 @@
                 "sent_id": "colby_428",
                 "annotator": "colby",
                 "sent": "the tank leading"
+            },
+            {
+                "sent_id": "iralys_441",
+                "annotator": "iralys",
+                "sent": "the first tank"
             }
         ]
     },
@@ -7647,6 +7917,11 @@
                 "sent_id": "colby_429",
                 "annotator": "colby",
                 "sent": "the following tank"
+            },
+            {
+                "sent_id": "iralys_442",
+                "annotator": "iralys",
+                "sent": "the tank between the box truck and the car"
             }
         ]
     },
@@ -7660,6 +7935,11 @@
                 "sent_id": "colby_430",
                 "annotator": "colby",
                 "sent": "the first tank in the column"
+            },
+            {
+                "sent_id": "iralys_443",
+                "annotator": "iralys",
+                "sent": "the leading tank"
             }
         ]
     },
@@ -7673,6 +7953,11 @@
                 "sent_id": "colby_431",
                 "annotator": "colby",
                 "sent": "the second tank in the column"
+            },
+            {
+                "sent_id": "iralys_444",
+                "annotator": "iralys",
+                "sent": "the last tank"
             }
         ]
     },
@@ -7686,6 +7971,11 @@
                 "sent_id": "colby_432",
                 "annotator": "colby",
                 "sent": "the front tank in the column"
+            },
+            {
+                "sent_id": "iralys_445",
+                "annotator": "iralys",
+                "sent": "the tank following the pickup truck"
             }
         ]
     },
@@ -7699,6 +7989,11 @@
                 "sent_id": "colby_433",
                 "annotator": "colby",
                 "sent": "the rear tank in the column"
+            },
+            {
+                "sent_id": "iralys_446",
+                "annotator": "iralys",
+                "sent": "the second tank"
             }
         ]
     },
@@ -7712,6 +8007,11 @@
                 "sent_id": "colby_434",
                 "annotator": "colby",
                 "sent": "the tank towards the front"
+            },
+            {
+                "sent_id": "iralys_447",
+                "annotator": "iralys",
+                "sent": "the tank behind the silver truck"
             }
         ]
     },
@@ -7725,6 +8025,11 @@
                 "sent_id": "colby_435",
                 "annotator": "colby",
                 "sent": "the tank towards the rear"
+            },
+            {
+                "sent_id": "iralys_448",
+                "annotator": "iralys",
+                "sent": "the tank behind the white truck"
             }
         ]
     },
@@ -7738,6 +8043,11 @@
                 "sent_id": "colby_436",
                 "annotator": "colby",
                 "sent": "the front tank"
+            },
+            {
+                "sent_id": "iralys_449",
+                "annotator": "iralys",
+                "sent": "the tank all way in front"
             }
         ]
     },
@@ -7751,6 +8061,11 @@
                 "sent_id": "colby_437",
                 "annotator": "colby",
                 "sent": "the rear tank"
+            },
+            {
+                "sent_id": "iralys_450",
+                "annotator": "iralys",
+                "sent": "the tank all the way in the back"
             }
         ]
     },
@@ -7764,6 +8079,11 @@
                 "sent_id": "colby_438",
                 "annotator": "colby",
                 "sent": "the frontal tank in the column"
+            },
+            {
+                "sent_id": "iralys_451",
+                "annotator": "iralys",
+                "sent": "the tank folowing the work truck"
             }
         ]
     },
@@ -7777,6 +8097,11 @@
                 "sent_id": "colby_439",
                 "annotator": "colby",
                 "sent": "the rar tank in the element"
+            },
+            {
+                "sent_id": "iralys_452",
+                "annotator": "iralys",
+                "sent": "the last tank"
             }
         ]
     },
@@ -7790,6 +8115,11 @@
                 "sent_id": "colby_440",
                 "annotator": "colby",
                 "sent": "the frontal tank in the element"
+            },
+            {
+                "sent_id": "iralys_453",
+                "annotator": "iralys",
+                "sent": "the tank between the pick up truck and box truck"
             }
         ]
     },
@@ -7803,6 +8133,11 @@
                 "sent_id": "colby_441",
                 "annotator": "colby",
                 "sent": "the rear tank in the column"
+            },
+            {
+                "sent_id": "iralys_454",
+                "annotator": "iralys",
+                "sent": "the tank in the rear"
             }
         ]
     },
@@ -7816,6 +8151,11 @@
                 "sent_id": "colby_442",
                 "annotator": "colby",
                 "sent": "the tank to the left"
+            },
+            {
+                "sent_id": "iralys_455",
+                "annotator": "iralys",
+                "sent": "the first tank"
             }
         ]
     },
@@ -7829,6 +8169,11 @@
                 "sent_id": "colby_443",
                 "annotator": "colby",
                 "sent": "the tank to the right"
+            },
+            {
+                "sent_id": "iralys_456",
+                "annotator": "iralys",
+                "sent": "the second tank"
             }
         ]
     },
@@ -7842,6 +8187,11 @@
                 "sent_id": "colby_444",
                 "annotator": "colby",
                 "sent": "the tank behind the pickup truck"
+            },
+            {
+                "sent_id": "iralys_457",
+                "annotator": "iralys",
+                "sent": "the tank behind the silver truck"
             }
         ]
     },
@@ -7855,6 +8205,11 @@
                 "sent_id": "colby_445",
                 "annotator": "colby",
                 "sent": "the tank behind the other vehicles"
+            },
+            {
+                "sent_id": "iralys_458",
+                "annotator": "iralys",
+                "sent": "the tank behind the white truck"
             }
         ]
     },
@@ -7868,6 +8223,11 @@
                 "sent_id": "colby_446",
                 "annotator": "colby",
                 "sent": "the tank farthest away"
+            },
+            {
+                "sent_id": "iralys_459",
+                "annotator": "iralys",
+                "sent": "the leading tank"
             }
         ]
     },
@@ -7881,6 +8241,11 @@
                 "sent_id": "colby_447",
                 "annotator": "colby",
                 "sent": "the tank closest"
+            },
+            {
+                "sent_id": "iralys_460",
+                "annotator": "iralys",
+                "sent": "the rear tank"
             }
         ]
     },
@@ -7894,6 +8259,11 @@
                 "sent_id": "colby_448",
                 "annotator": "colby",
                 "sent": "the very close tank"
+            },
+            {
+                "sent_id": "iralys_461",
+                "annotator": "iralys",
+                "sent": "the tank in front"
             }
         ]
     },
@@ -7907,6 +8277,11 @@
                 "sent_id": "colby_449",
                 "annotator": "colby",
                 "sent": "the tank behind the box truck"
+            },
+            {
+                "sent_id": "iralys_462",
+                "annotator": "iralys",
+                "sent": "the tank following the first tank"
             }
         ]
     },
@@ -7920,6 +8295,11 @@
                 "sent_id": "colby_450",
                 "annotator": "colby",
                 "sent": "the tank far down the road"
+            },
+            {
+                "sent_id": "iralys_463",
+                "annotator": "iralys",
+                "sent": "the front tank"
             }
         ]
     },
@@ -7933,6 +8313,11 @@
                 "sent_id": "colby_451",
                 "annotator": "colby",
                 "sent": "the tank closest"
+            },
+            {
+                "sent_id": "iralys_464",
+                "annotator": "iralys",
+                "sent": "the back tank"
             }
         ]
     },
@@ -7946,6 +8331,11 @@
                 "sent_id": "colby_452",
                 "annotator": "colby",
                 "sent": "the tank farthest in the element"
+            },
+            {
+                "sent_id": "iralys_465",
+                "annotator": "iralys",
+                "sent": "the tank in front of the box truck"
             }
         ]
     },
@@ -7959,6 +8349,11 @@
                 "sent_id": "colby_453",
                 "annotator": "colby",
                 "sent": "the tank closest in the element"
+            },
+            {
+                "sent_id": "iralys_466",
+                "annotator": "iralys",
+                "sent": "the tank behind the box truck"
             }
         ]
     },
@@ -7972,6 +8367,11 @@
                 "sent_id": "colby_454",
                 "annotator": "colby",
                 "sent": "the tank leading the element"
+            },
+            {
+                "sent_id": "iralys_467",
+                "annotator": "iralys",
+                "sent": "the tank following the work truck"
             }
         ]
     },
@@ -7985,6 +8385,11 @@
                 "sent_id": "colby_455",
                 "annotator": "colby",
                 "sent": "the rar tank in the column"
+            },
+            {
+                "sent_id": "iralys_468",
+                "annotator": "iralys",
+                "sent": "the tank following the box truck"
             }
         ]
     },
@@ -7998,6 +8403,11 @@
                 "sent_id": "colby_456",
                 "annotator": "colby",
                 "sent": "the first tank on the road"
+            },
+            {
+                "sent_id": "iralys_469",
+                "annotator": "iralys",
+                "sent": "the first tank"
             }
         ]
     },
@@ -8011,6 +8421,11 @@
                 "sent_id": "colby_457",
                 "annotator": "colby",
                 "sent": "the second tank on the raod"
+            },
+            {
+                "sent_id": "iralys_470",
+                "annotator": "iralys",
+                "sent": "the second tank"
             }
         ]
     },
@@ -8024,6 +8439,11 @@
                 "sent_id": "colby_458",
                 "annotator": "colby",
                 "sent": "the tank behind the pickup on the road"
+            },
+            {
+                "sent_id": "iralys_471",
+                "annotator": "iralys",
+                "sent": "the first tank in line"
             }
         ]
     },
@@ -8037,6 +8457,11 @@
                 "sent_id": "colby_459",
                 "annotator": "colby",
                 "sent": "the tank behind the other vehicles on the road"
+            },
+            {
+                "sent_id": "iralys_472",
+                "annotator": "iralys",
+                "sent": "the last tank in line"
             }
         ]
     },
@@ -8050,6 +8475,11 @@
                 "sent_id": "colby_460",
                 "annotator": "colby",
                 "sent": "the tank leading"
+            },
+            {
+                "sent_id": "iralys_473",
+                "annotator": "iralys",
+                "sent": "the first tank on the path"
             }
         ]
     },
@@ -8063,6 +8493,11 @@
                 "sent_id": "colby_461",
                 "annotator": "colby",
                 "sent": "the following tank"
+            },
+            {
+                "sent_id": "iralys_474",
+                "annotator": "iralys",
+                "sent": "the second tank on the path"
             }
         ]
     },
@@ -8076,6 +8511,11 @@
                 "sent_id": "colby_462",
                 "annotator": "colby",
                 "sent": "the tank in the front"
+            },
+            {
+                "sent_id": "iralys_475",
+                "annotator": "iralys",
+                "sent": "the leading tank"
             }
         ]
     },
@@ -8089,6 +8529,11 @@
                 "sent_id": "colby_463",
                 "annotator": "colby",
                 "sent": "the tank in the rear"
+            },
+            {
+                "sent_id": "iralys_476",
+                "annotator": "iralys",
+                "sent": "the last tank"
             }
         ]
     },
@@ -8102,6 +8547,11 @@
                 "sent_id": "colby_464",
                 "annotator": "colby",
                 "sent": "the tank in the front of the element"
+            },
+            {
+                "sent_id": "iralys_477",
+                "annotator": "iralys",
+                "sent": "the first tank in line"
             }
         ]
     },
@@ -8115,6 +8565,11 @@
                 "sent_id": "colby_465",
                 "annotator": "colby",
                 "sent": "the second tank"
+            },
+            {
+                "sent_id": "iralys_478",
+                "annotator": "iralys",
+                "sent": "the last tank in line"
             }
         ]
     },
@@ -8128,6 +8583,11 @@
                 "sent_id": "colby_466",
                 "annotator": "colby",
                 "sent": "the thrid tank"
+            },
+            {
+                "sent_id": "iralys_479",
+                "annotator": "iralys",
+                "sent": "the second tank in line"
             }
         ]
     },
@@ -8141,6 +8601,11 @@
                 "sent_id": "colby_467",
                 "annotator": "colby",
                 "sent": "the first tank on the road"
+            },
+            {
+                "sent_id": "iralys_480",
+                "annotator": "iralys",
+                "sent": "the tank in front of the second tank"
             }
         ]
     },
@@ -8154,6 +8619,11 @@
                 "sent_id": "colby_468",
                 "annotator": "colby",
                 "sent": "the rear tank on the road"
+            },
+            {
+                "sent_id": "iralys_481",
+                "annotator": "iralys",
+                "sent": "the tank behind the second tank"
             }
         ]
     },
@@ -8167,6 +8637,11 @@
                 "sent_id": "colby_469",
                 "annotator": "colby",
                 "sent": "the middle tank on the road"
+            },
+            {
+                "sent_id": "iralys_482",
+                "annotator": "iralys",
+                "sent": "the middle tank"
             }
         ]
     },
@@ -8180,6 +8655,11 @@
                 "sent_id": "colby_470",
                 "annotator": "colby",
                 "sent": "the front tank on the road"
+            },
+            {
+                "sent_id": "iralys_483",
+                "annotator": "iralys",
+                "sent": "the leading tank on the road"
             }
         ]
     },
@@ -8193,6 +8673,11 @@
                 "sent_id": "colby_471",
                 "annotator": "colby",
                 "sent": "the rar tank on the road"
+            },
+            {
+                "sent_id": "iralys_484",
+                "annotator": "iralys",
+                "sent": "the third tank on the road"
             }
         ]
     },
@@ -8206,6 +8691,11 @@
                 "sent_id": "colby_472",
                 "annotator": "colby",
                 "sent": "the front tank in the column"
+            },
+            {
+                "sent_id": "iralys_485",
+                "annotator": "iralys",
+                "sent": "the middle tank on the road"
             }
         ]
     },
@@ -8219,6 +8709,11 @@
                 "sent_id": "colby_473",
                 "annotator": "colby",
                 "sent": "the tank to the left"
+            },
+            {
+                "sent_id": "iralys_486",
+                "annotator": "iralys",
+                "sent": "the first tank on the path"
             }
         ]
     },
@@ -8232,6 +8727,11 @@
                 "sent_id": "colby_474",
                 "annotator": "colby",
                 "sent": "the tank to the right"
+            },
+            {
+                "sent_id": "iralys_487",
+                "annotator": "iralys",
+                "sent": "the third tank on the path"
             }
         ]
     },
@@ -8245,6 +8745,11 @@
                 "sent_id": "colby_475",
                 "annotator": "colby",
                 "sent": "the tank dead center"
+            },
+            {
+                "sent_id": "iralys_488",
+                "annotator": "iralys",
+                "sent": "the second tank on the path"
             }
         ]
     },
@@ -8258,6 +8763,11 @@
                 "sent_id": "colby_476",
                 "annotator": "colby",
                 "sent": "the tank to the front"
+            },
+            {
+                "sent_id": "iralys_489",
+                "annotator": "iralys",
+                "sent": "the tank all the way in front"
             }
         ]
     },
@@ -8271,6 +8781,11 @@
                 "sent_id": "colby_477",
                 "annotator": "colby",
                 "sent": "the tank to the rear"
+            },
+            {
+                "sent_id": "iralys_490",
+                "annotator": "iralys",
+                "sent": "the tank all the way in the back"
             }
         ]
     },
@@ -8284,6 +8799,11 @@
                 "sent_id": "colby_478",
                 "annotator": "colby",
                 "sent": "the tank dead center"
+            },
+            {
+                "sent_id": "iralys_491",
+                "annotator": "iralys",
+                "sent": "the tank in the middle"
             }
         ]
     },
@@ -8297,6 +8817,11 @@
                 "sent_id": "colby_479",
                 "annotator": "colby",
                 "sent": "the tank farthest down the road"
+            },
+            {
+                "sent_id": "iralys_492",
+                "annotator": "iralys",
+                "sent": "the tank leading the convoy"
             }
         ]
     },
@@ -8310,6 +8835,11 @@
                 "sent_id": "colby_480",
                 "annotator": "colby",
                 "sent": "the tank closest on the road"
+            },
+            {
+                "sent_id": "iralys_493",
+                "annotator": "iralys",
+                "sent": "the tank ending the convoy"
             }
         ]
     },
@@ -8323,6 +8853,11 @@
                 "sent_id": "colby_481",
                 "annotator": "colby",
                 "sent": "the middle tank"
+            },
+            {
+                "sent_id": "iralys_494",
+                "annotator": "iralys",
+                "sent": "the tank in the middle of the convoy"
             }
         ]
     },
@@ -8336,6 +8871,11 @@
                 "sent_id": "colby_482",
                 "annotator": "colby",
                 "sent": "the tank closest"
+            },
+            {
+                "sent_id": "iralys_495",
+                "annotator": "iralys",
+                "sent": "the tank leading the convoy"
             }
         ]
     },
@@ -8349,6 +8889,11 @@
                 "sent_id": "colby_483",
                 "annotator": "colby",
                 "sent": "the tank behind the front tank"
+            },
+            {
+                "sent_id": "iralys_496",
+                "annotator": "iralys",
+                "sent": "the tank at the center of the convoy"
             }
         ]
     },
@@ -8362,6 +8907,11 @@
                 "sent_id": "colby_484",
                 "annotator": "colby",
                 "sent": "the tank far away"
+            },
+            {
+                "sent_id": "iralys_497",
+                "annotator": "iralys",
+                "sent": "the first tank on the path"
             }
         ]
     },
@@ -8375,6 +8925,11 @@
                 "sent_id": "colby_485",
                 "annotator": "colby",
                 "sent": "the tank near"
+            },
+            {
+                "sent_id": "iralys_498",
+                "annotator": "iralys",
+                "sent": "the last tank on the path"
             }
         ]
     },
@@ -8388,6 +8943,11 @@
                 "sent_id": "colby_486",
                 "annotator": "colby",
                 "sent": "the tank dead center"
+            },
+            {
+                "sent_id": "iralys_499",
+                "annotator": "iralys",
+                "sent": "the middle tank"
             }
         ]
     },
@@ -8401,6 +8961,11 @@
                 "sent_id": "colby_487",
                 "annotator": "colby",
                 "sent": "the tank farthest away"
+            },
+            {
+                "sent_id": "iralys_500",
+                "annotator": "iralys",
+                "sent": "]the tank in front of the second tank"
             }
         ]
     },
@@ -8414,6 +8979,11 @@
                 "sent_id": "colby_488",
                 "annotator": "colby",
                 "sent": "the tank closest"
+            },
+            {
+                "sent_id": "iralys_501",
+                "annotator": "iralys",
+                "sent": "the tank behind the second tank"
             }
         ]
     },
@@ -8427,6 +8997,11 @@
                 "sent_id": "colby_489",
                 "annotator": "colby",
                 "sent": "the tank dead center"
+            },
+            {
+                "sent_id": "iralys_502",
+                "annotator": "iralys",
+                "sent": "the tank in between two tanks"
             }
         ]
     },
@@ -8440,6 +9015,11 @@
                 "sent_id": "colby_490",
                 "annotator": "colby",
                 "sent": "the frontal tank"
+            },
+            {
+                "sent_id": "iralys_503",
+                "annotator": "iralys",
+                "sent": "the tank leading the convoy"
             }
         ]
     },
@@ -8453,6 +9033,11 @@
                 "sent_id": "colby_491",
                 "annotator": "colby",
                 "sent": "the rear tank"
+            },
+            {
+                "sent_id": "iralys_504",
+                "annotator": "iralys",
+                "sent": "the tank ending the convoy"
             }
         ]
     },
@@ -8466,6 +9051,11 @@
                 "sent_id": "colby_492",
                 "annotator": "colby",
                 "sent": "the middle tank in the column"
+            },
+            {
+                "sent_id": "iralys_505",
+                "annotator": "iralys",
+                "sent": "the middle tank"
             }
         ]
     },
@@ -8479,6 +9069,11 @@
                 "sent_id": "colby_493",
                 "annotator": "colby",
                 "sent": "the front tank in the element"
+            },
+            {
+                "sent_id": "iralys_506",
+                "annotator": "iralys",
+                "sent": "the tank in front"
             }
         ]
     },
@@ -8492,6 +9087,11 @@
                 "sent_id": "colby_494",
                 "annotator": "colby",
                 "sent": "the rear tank in the element"
+            },
+            {
+                "sent_id": "iralys_507",
+                "annotator": "iralys",
+                "sent": "the tank in the back"
             }
         ]
     },
@@ -8505,6 +9105,11 @@
                 "sent_id": "colby_495",
                 "annotator": "colby",
                 "sent": "the tank dead center in the element"
+            },
+            {
+                "sent_id": "iralys_508",
+                "annotator": "iralys",
+                "sent": "the tank in the middle"
             }
         ]
     },
@@ -8518,6 +9123,11 @@
                 "sent_id": "colby_496",
                 "annotator": "colby",
                 "sent": "the front tank"
+            },
+            {
+                "sent_id": "iralys_509",
+                "annotator": "iralys",
+                "sent": "the tank in the rear"
             }
         ]
     },
@@ -8531,6 +9141,11 @@
                 "sent_id": "colby_497",
                 "annotator": "colby",
                 "sent": "the rear tank in the convoy"
+            },
+            {
+                "sent_id": "iralys_510",
+                "annotator": "iralys",
+                "sent": "the tank in the rear"
             }
         ]
     },
@@ -8544,6 +9159,11 @@
                 "sent_id": "colby_498",
                 "annotator": "colby",
                 "sent": "the center tank in the convoy"
+            },
+            {
+                "sent_id": "iralys_511",
+                "annotator": "iralys",
+                "sent": "the middle tank"
             }
         ]
     },
@@ -8557,6 +9177,11 @@
                 "sent_id": "colby_499",
                 "annotator": "colby",
                 "sent": "the tank leading the convoy"
+            },
+            {
+                "sent_id": "iralys_512",
+                "annotator": "iralys",
+                "sent": "the tank all the way in front"
             }
         ]
     },
@@ -8570,6 +9195,11 @@
                 "sent_id": "colby_500",
                 "annotator": "colby",
                 "sent": "the rar tank in the convoy"
+            },
+            {
+                "sent_id": "iralys_513",
+                "annotator": "iralys",
+                "sent": "the tank all the way in the back"
             }
         ]
     },
@@ -8583,6 +9213,11 @@
                 "sent_id": "colby_501",
                 "annotator": "colby",
                 "sent": "the middle tank in the convoy"
+            },
+            {
+                "sent_id": "iralys_514",
+                "annotator": "iralys",
+                "sent": "the tank in the center"
             }
         ]
     },
@@ -8596,6 +9231,11 @@
                 "sent_id": "colby_502",
                 "annotator": "colby",
                 "sent": "the front tank in the convoy"
+            },
+            {
+                "sent_id": "iralys_515",
+                "annotator": "iralys",
+                "sent": "the front tank"
             }
         ]
     },
@@ -8609,6 +9249,11 @@
                 "sent_id": "colby_503",
                 "annotator": "colby",
                 "sent": "the middle tank in the convoy"
+            },
+            {
+                "sent_id": "iralys_516",
+                "annotator": "iralys",
+                "sent": "the center tank"
             }
         ]
     },
@@ -8622,6 +9267,11 @@
                 "sent_id": "colby_504",
                 "annotator": "colby",
                 "sent": "the front tank in the element"
+            },
+            {
+                "sent_id": "iralys_517",
+                "annotator": "iralys",
+                "sent": "the firs tank"
             }
         ]
     },
@@ -8635,6 +9285,11 @@
                 "sent_id": "colby_505",
                 "annotator": "colby",
                 "sent": "the rear tank in the element"
+            },
+            {
+                "sent_id": "iralys_518",
+                "annotator": "iralys",
+                "sent": "the final tank"
             }
         ]
     },
@@ -8648,6 +9303,11 @@
                 "sent_id": "colby_506",
                 "annotator": "colby",
                 "sent": "the middle tank dead center"
+            },
+            {
+                "sent_id": "iralys_519",
+                "annotator": "iralys",
+                "sent": "the middle tank"
             }
         ]
     },
@@ -8661,6 +9321,11 @@
                 "sent_id": "colby_507",
                 "annotator": "colby",
                 "sent": "the front take in the element"
+            },
+            {
+                "sent_id": "iralys_520",
+                "annotator": "iralys",
+                "sent": "the tank first in line"
             }
         ]
     },
@@ -8674,6 +9339,11 @@
                 "sent_id": "colby_508",
                 "annotator": "colby",
                 "sent": "the rear tank in the element"
+            },
+            {
+                "sent_id": "iralys_521",
+                "annotator": "iralys",
+                "sent": "the tank last in line"
             }
         ]
     },
@@ -8687,6 +9357,11 @@
                 "sent_id": "colby_509",
                 "annotator": "colby",
                 "sent": "the middle tank in the element"
+            },
+            {
+                "sent_id": "iralys_522",
+                "annotator": "iralys",
+                "sent": "the tank in the center"
             }
         ]
     },
@@ -8700,6 +9375,11 @@
                 "sent_id": "colby_510",
                 "annotator": "colby",
                 "sent": "the farthest tank"
+            },
+            {
+                "sent_id": "iralys_523",
+                "annotator": "iralys",
+                "sent": "the first tank in the path"
             }
         ]
     },
@@ -8713,6 +9393,11 @@
                 "sent_id": "colby_511",
                 "annotator": "colby",
                 "sent": "the rear tank"
+            },
+            {
+                "sent_id": "iralys_524",
+                "annotator": "iralys",
+                "sent": "the last tank on the path"
             }
         ]
     },
@@ -8726,6 +9411,11 @@
                 "sent_id": "colby_512",
                 "annotator": "colby",
                 "sent": "the middle tank"
+            },
+            {
+                "sent_id": "iralys_525",
+                "annotator": "iralys",
+                "sent": "the second tank on the path"
             }
         ]
     },
@@ -8739,6 +9429,11 @@
                 "sent_id": "colby_513",
                 "annotator": "colby",
                 "sent": "the rear tank"
+            },
+            {
+                "sent_id": "iralys_526",
+                "annotator": "iralys",
+                "sent": "the third tank on the path"
             }
         ]
     },
@@ -8752,6 +9447,11 @@
                 "sent_id": "colby_514",
                 "annotator": "colby",
                 "sent": "the tank in the front of the convoy"
+            },
+            {
+                "sent_id": "iralys_527",
+                "annotator": "iralys",
+                "sent": "the leading tank"
             }
         ]
     },
@@ -8765,6 +9465,11 @@
                 "sent_id": "colby_515",
                 "annotator": "colby",
                 "sent": "the tank in the rear of the convoy"
+            },
+            {
+                "sent_id": "iralys_528",
+                "annotator": "iralys",
+                "sent": "the rear tank"
             }
         ]
     },
@@ -8778,6 +9483,11 @@
                 "sent_id": "colby_516",
                 "annotator": "colby",
                 "sent": "the tank in the center of the convoy"
+            },
+            {
+                "sent_id": "iralys_529",
+                "annotator": "iralys",
+                "sent": "the middle tank"
             }
         ]
     },
@@ -8791,6 +9501,11 @@
                 "sent_id": "colby_517",
                 "annotator": "colby",
                 "sent": "the frontal tank in the convoy"
+            },
+            {
+                "sent_id": "iralys_530",
+                "annotator": "iralys",
+                "sent": "the tank in front of all other tanks"
             }
         ]
     },
@@ -8804,6 +9519,11 @@
                 "sent_id": "colby_518",
                 "annotator": "colby",
                 "sent": "the rear tank in the convoy"
+            },
+            {
+                "sent_id": "iralys_531",
+                "annotator": "iralys",
+                "sent": "the tank behind all other tanks"
             }
         ]
     },
@@ -8817,6 +9537,11 @@
                 "sent_id": "colby_519",
                 "annotator": "colby",
                 "sent": "the middle tank in the convoy"
+            },
+            {
+                "sent_id": "iralys_532",
+                "annotator": "iralys",
+                "sent": "the center tank"
             }
         ]
     },
@@ -8830,6 +9555,11 @@
                 "sent_id": "colby_520",
                 "annotator": "colby",
                 "sent": "the fronttal tank in the element"
+            },
+            {
+                "sent_id": "iralys_533",
+                "annotator": "iralys",
+                "sent": "the first tank in the convoy"
             }
         ]
     },
@@ -8843,6 +9573,11 @@
                 "sent_id": "colby_521",
                 "annotator": "colby",
                 "sent": "the rear tank in the element"
+            },
+            {
+                "sent_id": "iralys_534",
+                "annotator": "iralys",
+                "sent": "the last tank in the convoy"
             }
         ]
     },
@@ -8856,6 +9591,11 @@
                 "sent_id": "colby_522",
                 "annotator": "colby",
                 "sent": "the middle tank in the element"
+            },
+            {
+                "sent_id": "iralys_535",
+                "annotator": "iralys",
+                "sent": "the second tank in the convoy"
             }
         ]
     },
@@ -8869,6 +9609,11 @@
                 "sent_id": "colby_523",
                 "annotator": "colby",
                 "sent": "the the military truck behind the leader"
+            },
+            {
+                "sent_id": "iralys_536",
+                "annotator": "iralys",
+                "sent": "the second military truck in line"
             }
         ]
     },
@@ -8882,6 +9627,11 @@
                 "sent_id": "colby_524",
                 "annotator": "colby",
                 "sent": "the leading the military truck"
+            },
+            {
+                "sent_id": "iralys_537",
+                "annotator": "iralys",
+                "sent": "the first military truck in line"
             }
         ]
     },
@@ -8895,6 +9645,11 @@
                 "sent_id": "colby_525",
                 "annotator": "colby",
                 "sent": "the military truck in the center"
+            },
+            {
+                "sent_id": "iralys_538",
+                "annotator": "iralys",
+                "sent": "the second military truck in line"
             }
         ]
     },
@@ -8908,6 +9663,11 @@
                 "sent_id": "colby_526",
                 "annotator": "colby",
                 "sent": "the leading military truck"
+            },
+            {
+                "sent_id": "iralys_539",
+                "annotator": "iralys",
+                "sent": "the first military truck in the convoy"
             }
         ]
     },
@@ -8921,6 +9681,11 @@
                 "sent_id": "colby_527",
                 "annotator": "colby",
                 "sent": "the rear military truck"
+            },
+            {
+                "sent_id": "iralys_540",
+                "annotator": "iralys",
+                "sent": "the last military truck in the convoy"
             }
         ]
     },
@@ -8934,6 +9699,11 @@
                 "sent_id": "colby_528",
                 "annotator": "colby",
                 "sent": "the military truck in the center"
+            },
+            {
+                "sent_id": "iralys_541",
+                "annotator": "iralys",
+                "sent": "the center military truck"
             }
         ]
     },
@@ -8947,6 +9717,11 @@
                 "sent_id": "colby_529",
                 "annotator": "colby",
                 "sent": "the military truck in the front"
+            },
+            {
+                "sent_id": "iralys_542",
+                "annotator": "iralys",
+                "sent": "the leading military truck"
             }
         ]
     },
@@ -8960,6 +9735,11 @@
                 "sent_id": "colby_530",
                 "annotator": "colby",
                 "sent": "the military truck in the back"
+            },
+            {
+                "sent_id": "iralys_543",
+                "annotator": "iralys",
+                "sent": "the military truck in the rear"
             }
         ]
     },
@@ -8973,6 +9753,11 @@
                 "sent_id": "colby_531",
                 "annotator": "colby",
                 "sent": "the second military truck"
+            },
+            {
+                "sent_id": "iralys_544",
+                "annotator": "iralys",
+                "sent": "the middle military truck"
             }
         ]
     },
@@ -8986,6 +9771,11 @@
                 "sent_id": "colby_532",
                 "annotator": "colby",
                 "sent": "the first military truck"
+            },
+            {
+                "sent_id": "iralys_545",
+                "annotator": "iralys",
+                "sent": "the military truck all the way upfront"
             }
         ]
     },
@@ -8999,6 +9789,11 @@
                 "sent_id": "colby_533",
                 "annotator": "colby",
                 "sent": "the last military truck"
+            },
+            {
+                "sent_id": "iralys_546",
+                "annotator": "iralys",
+                "sent": "the military truck all the way in the rear"
             }
         ]
     },
@@ -9012,6 +9807,11 @@
                 "sent_id": "colby_534",
                 "annotator": "colby",
                 "sent": "the center military truck in the column"
+            },
+            {
+                "sent_id": "iralys_547",
+                "annotator": "iralys",
+                "sent": "the center military truck"
             }
         ]
     },
@@ -9025,6 +9825,11 @@
                 "sent_id": "colby_535",
                 "annotator": "colby",
                 "sent": "the first military truck in the column"
+            },
+            {
+                "sent_id": "iralys_548",
+                "annotator": "iralys",
+                "sent": "the military truck beggining the convoy"
             }
         ]
     },
@@ -9038,6 +9843,11 @@
                 "sent_id": "colby_536",
                 "annotator": "colby",
                 "sent": "the last military truck in the column"
+            },
+            {
+                "sent_id": "iralys_549",
+                "annotator": "iralys",
+                "sent": "the military truck ending the convoy"
             }
         ]
     },
@@ -9051,6 +9861,11 @@
                 "sent_id": "colby_537",
                 "annotator": "colby",
                 "sent": "the center military truck in thhe element"
+            },
+            {
+                "sent_id": "iralys_550",
+                "annotator": "iralys",
+                "sent": "the military truck following the first military truck"
             }
         ]
     },
@@ -9064,6 +9879,11 @@
                 "sent_id": "colby_538",
                 "annotator": "colby",
                 "sent": "the first military truck in the element"
+            },
+            {
+                "sent_id": "iralys_551",
+                "annotator": "iralys",
+                "sent": "the military truck in front of all others"
             }
         ]
     },
@@ -9077,6 +9897,11 @@
                 "sent_id": "colby_539",
                 "annotator": "colby",
                 "sent": "the last military truck in the element"
+            },
+            {
+                "sent_id": "iralys_552",
+                "annotator": "iralys",
+                "sent": "the military truck behind all others"
             }
         ]
     },
@@ -9090,6 +9915,11 @@
                 "sent_id": "colby_540",
                 "annotator": "colby",
                 "sent": "the second military truck in the convoy"
+            },
+            {
+                "sent_id": "iralys_553",
+                "annotator": "iralys",
+                "sent": "the military truck infront of the last military truck"
             }
         ]
     },
@@ -9103,6 +9933,11 @@
                 "sent_id": "colby_541",
                 "annotator": "colby",
                 "sent": "the first military truck in the covoy"
+            },
+            {
+                "sent_id": "iralys_554",
+                "annotator": "iralys",
+                "sent": "the military truck infornt of the middle military truck"
             }
         ]
     },
@@ -9116,6 +9951,11 @@
                 "sent_id": "colby_542",
                 "annotator": "colby",
                 "sent": "the rear military truck in the convoy"
+            },
+            {
+                "sent_id": "iralys_555",
+                "annotator": "iralys",
+                "sent": "the military truck following two military trucks"
             }
         ]
     },
@@ -9129,6 +9969,11 @@
                 "sent_id": "colby_543",
                 "annotator": "colby",
                 "sent": "the military truck behind the front military truck"
+            },
+            {
+                "sent_id": "iralys_556",
+                "annotator": "iralys",
+                "sent": "the military truck in between two military trucks"
             }
         ]
     },
@@ -9142,6 +9987,11 @@
                 "sent_id": "colby_544",
                 "annotator": "colby",
                 "sent": "the military truck in front"
+            },
+            {
+                "sent_id": "iralys_557",
+                "annotator": "iralys",
+                "sent": "the military truck leading two military trucks"
             }
         ]
     },
@@ -9155,6 +10005,11 @@
                 "sent_id": "colby_545",
                 "annotator": "colby",
                 "sent": "the military truck in the center"
+            },
+            {
+                "sent_id": "iralys_558",
+                "annotator": "iralys",
+                "sent": "the military truck following the first military truck"
             }
         ]
     },
@@ -9168,6 +10023,11 @@
                 "sent_id": "colby_546",
                 "annotator": "colby",
                 "sent": "the military truck in leading the convoy"
+            },
+            {
+                "sent_id": "iralys_559",
+                "annotator": "iralys",
+                "sent": "the military truck that is first"
             }
         ]
     },
@@ -9181,6 +10041,11 @@
                 "sent_id": "colby_547",
                 "annotator": "colby",
                 "sent": "the military truck at the end of the convoy"
+            },
+            {
+                "sent_id": "iralys_560",
+                "annotator": "iralys",
+                "sent": "the military truck that is last"
             }
         ]
     },
@@ -9194,6 +10059,11 @@
                 "sent_id": "colby_548",
                 "annotator": "colby",
                 "sent": "the military truck in the center of the convoy"
+            },
+            {
+                "sent_id": "iralys_561",
+                "annotator": "iralys",
+                "sent": "the second military truck"
             }
         ]
     },
@@ -9207,6 +10077,11 @@
                 "sent_id": "colby_549",
                 "annotator": "colby",
                 "sent": "the first military truck in the convoy"
+            },
+            {
+                "sent_id": "iralys_562",
+                "annotator": "iralys",
+                "sent": "the first military truck"
             }
         ]
     },
@@ -9220,6 +10095,11 @@
                 "sent_id": "colby_550",
                 "annotator": "colby",
                 "sent": "the third military truck in the convoy"
+            },
+            {
+                "sent_id": "iralys_563",
+                "annotator": "iralys",
+                "sent": "the last military truck"
             }
         ]
     },
@@ -9233,6 +10113,11 @@
                 "sent_id": "colby_551",
                 "annotator": "colby",
                 "sent": "the military truck that is second in the convoy"
+            },
+            {
+                "sent_id": "iralys_564",
+                "annotator": "iralys",
+                "sent": "the military truck in the middle"
             }
         ]
     },
@@ -9246,6 +10131,11 @@
                 "sent_id": "colby_552",
                 "annotator": "colby",
                 "sent": "the military truck that is first in the convoy"
+            },
+            {
+                "sent_id": "iralys_565",
+                "annotator": "iralys",
+                "sent": "the first military truck on the trail"
             }
         ]
     },
@@ -9259,6 +10149,11 @@
                 "sent_id": "colby_553",
                 "annotator": "colby",
                 "sent": "the military truck that is last in the convoy"
+            },
+            {
+                "sent_id": "iralys_566",
+                "annotator": "iralys",
+                "sent": "the last military truck on the trail"
             }
         ]
     },
@@ -9272,6 +10167,11 @@
                 "sent_id": "colby_554",
                 "annotator": "colby",
                 "sent": "the military truck in t the dead center of the convoy"
+            },
+            {
+                "sent_id": "iralys_567",
+                "annotator": "iralys",
+                "sent": "the second military truck on the trail"
             }
         ]
     },
@@ -9285,6 +10185,11 @@
                 "sent_id": "colby_555",
                 "annotator": "colby",
                 "sent": "the military truck leading the front of the convoy"
+            },
+            {
+                "sent_id": "iralys_568",
+                "annotator": "iralys",
+                "sent": "the first military truck on the dirt path"
             }
         ]
     },
@@ -9298,6 +10203,11 @@
                 "sent_id": "colby_556",
                 "annotator": "colby",
                 "sent": "the military truck taking the rear in the convoy"
+            },
+            {
+                "sent_id": "iralys_569",
+                "annotator": "iralys",
+                "sent": "the last military truck on the dirt path"
             }
         ]
     },
@@ -9311,6 +10221,11 @@
                 "sent_id": "colby_557",
                 "annotator": "colby",
                 "sent": "the military truck in the center of the convoy"
+            },
+            {
+                "sent_id": "iralys_570",
+                "annotator": "iralys",
+                "sent": "the second military truck on the road"
             }
         ]
     },
@@ -9324,6 +10239,11 @@
                 "sent_id": "colby_558",
                 "annotator": "colby",
                 "sent": "the military truck in front of the element"
+            },
+            {
+                "sent_id": "iralys_571",
+                "annotator": "iralys",
+                "sent": "the first military truck on the road"
             }
         ]
     },
@@ -9337,6 +10257,11 @@
                 "sent_id": "colby_559",
                 "annotator": "colby",
                 "sent": "the last military truck in the convoy"
+            },
+            {
+                "sent_id": "iralys_572",
+                "annotator": "iralys",
+                "sent": "the lst military truck on the road"
             }
         ]
     },
@@ -9350,6 +10275,11 @@
                 "sent_id": "colby_560",
                 "annotator": "colby",
                 "sent": "the middle military truck"
+            },
+            {
+                "sent_id": "iralys_573",
+                "annotator": "iralys",
+                "sent": "the second military truck on the dirt road"
             }
         ]
     },
@@ -9363,6 +10293,11 @@
                 "sent_id": "colby_561",
                 "annotator": "colby",
                 "sent": "the first military truck"
+            },
+            {
+                "sent_id": "iralys_574",
+                "annotator": "iralys",
+                "sent": "the first military truck on the dirt road"
             }
         ]
     },
@@ -9376,6 +10311,11 @@
                 "sent_id": "colby_562",
                 "annotator": "colby",
                 "sent": "the last military truck"
+            },
+            {
+                "sent_id": "iralys_575",
+                "annotator": "iralys",
+                "sent": "the last military truck on the dirt road"
             }
         ]
     },
@@ -9389,6 +10329,11 @@
                 "sent_id": "colby_563",
                 "annotator": "colby",
                 "sent": "the second military truck"
+            },
+            {
+                "sent_id": "iralys_576",
+                "annotator": "iralys",
+                "sent": "the second military truck on the street"
             }
         ]
     },
@@ -9402,6 +10347,11 @@
                 "sent_id": "colby_564",
                 "annotator": "colby",
                 "sent": "the first military truck"
+            },
+            {
+                "sent_id": "iralys_577",
+                "annotator": "iralys",
+                "sent": "the first military truck on the street"
             }
         ]
     },
@@ -9415,6 +10365,11 @@
                 "sent_id": "colby_565",
                 "annotator": "colby",
                 "sent": "the middle military truck"
+            },
+            {
+                "sent_id": "iralys_578",
+                "annotator": "iralys",
+                "sent": "the second military truck on the path"
             }
         ]
     },
@@ -9428,6 +10383,11 @@
                 "sent_id": "colby_566",
                 "annotator": "colby",
                 "sent": "the first military truck"
+            },
+            {
+                "sent_id": "iralys_579",
+                "annotator": "iralys",
+                "sent": "the first military truck on the path"
             }
         ]
     },
@@ -9441,6 +10401,11 @@
                 "sent_id": "colby_567",
                 "annotator": "colby",
                 "sent": "the rear military truck"
+            },
+            {
+                "sent_id": "iralys_580",
+                "annotator": "iralys",
+                "sent": "the last military truck on the path"
             }
         ]
     },
@@ -9454,6 +10419,11 @@
                 "sent_id": "colby_568",
                 "annotator": "colby",
                 "sent": "the middle military truck in the element"
+            },
+            {
+                "sent_id": "iralys_581",
+                "annotator": "iralys",
+                "sent": "the middle military truck"
             }
         ]
     },
@@ -9467,6 +10437,11 @@
                 "sent_id": "colby_569",
                 "annotator": "colby",
                 "sent": "the first military truck in the e element"
+            },
+            {
+                "sent_id": "iralys_582",
+                "annotator": "iralys",
+                "sent": "the military truck begginning the convoy"
             }
         ]
     },
@@ -9480,6 +10455,11 @@
                 "sent_id": "colby_570",
                 "annotator": "colby",
                 "sent": "the rear military truck in the element"
+            },
+            {
+                "sent_id": "iralys_583",
+                "annotator": "iralys",
+                "sent": "the military truck ending the convoy"
             }
         ]
     },
@@ -9493,6 +10473,11 @@
                 "sent_id": "colby_571",
                 "annotator": "colby",
                 "sent": "the second military truck in the convoy"
+            },
+            {
+                "sent_id": "iralys_584",
+                "annotator": "iralys",
+                "sent": "the military truck in the center"
             }
         ]
     },
@@ -9506,6 +10491,11 @@
                 "sent_id": "colby_572",
                 "annotator": "colby",
                 "sent": "the first military truck in the convoy"
+            },
+            {
+                "sent_id": "iralys_585",
+                "annotator": "iralys",
+                "sent": "the military truck in front"
             }
         ]
     },
@@ -9519,6 +10509,11 @@
                 "sent_id": "colby_573",
                 "annotator": "colby",
                 "sent": "the third military truck in the convoy"
+            },
+            {
+                "sent_id": "iralys_586",
+                "annotator": "iralys",
+                "sent": "the military truck in the back"
             }
         ]
     },
@@ -9532,6 +10527,11 @@
                 "sent_id": "colby_574",
                 "annotator": "colby",
                 "sent": "the middle military truck on the street"
+            },
+            {
+                "sent_id": "iralys_587",
+                "annotator": "iralys",
+                "sent": "the middle military truck"
             }
         ]
     },
@@ -9545,6 +10545,11 @@
                 "sent_id": "colby_575",
                 "annotator": "colby",
                 "sent": "the first military truck on the street"
+            },
+            {
+                "sent_id": "iralys_588",
+                "annotator": "iralys",
+                "sent": "the military truck at the start of the convoy"
             }
         ]
     },
@@ -9558,6 +10563,11 @@
                 "sent_id": "colby_576",
                 "annotator": "colby",
                 "sent": "the third military truck on the street"
+            },
+            {
+                "sent_id": "iralys_589",
+                "annotator": "iralys",
+                "sent": "the military truck at the rear of the convoy"
             }
         ]
     },
@@ -9571,6 +10581,11 @@
                 "sent_id": "colby_577",
                 "annotator": "colby",
                 "sent": "the second military truck on the street"
+            },
+            {
+                "sent_id": "iralys_590",
+                "annotator": "iralys",
+                "sent": "the middle military truck"
             }
         ]
     },
@@ -9584,6 +10599,11 @@
                 "sent_id": "colby_578",
                 "annotator": "colby",
                 "sent": "the first military truck on the street"
+            },
+            {
+                "sent_id": "iralys_591",
+                "annotator": "iralys",
+                "sent": "the front military truck"
             }
         ]
     },
@@ -9597,6 +10617,11 @@
                 "sent_id": "colby_579",
                 "annotator": "colby",
                 "sent": "the third military truck on the street"
+            },
+            {
+                "sent_id": "iralys_592",
+                "annotator": "iralys",
+                "sent": "the back military truck"
             }
         ]
     },
@@ -9610,6 +10635,11 @@
                 "sent_id": "colby_580",
                 "annotator": "colby",
                 "sent": "the second military truck on the road"
+            },
+            {
+                "sent_id": "iralys_593",
+                "annotator": "iralys",
+                "sent": "the second military truck"
             }
         ]
     },
@@ -9623,6 +10653,11 @@
                 "sent_id": "colby_581",
                 "annotator": "colby",
                 "sent": "the first military truck on the road"
+            },
+            {
+                "sent_id": "iralys_594",
+                "annotator": "iralys",
+                "sent": "the first military truck"
             }
         ]
     },
@@ -9636,6 +10671,11 @@
                 "sent_id": "colby_582",
                 "annotator": "colby",
                 "sent": "the third military truck on the road"
+            },
+            {
+                "sent_id": "iralys_595",
+                "annotator": "iralys",
+                "sent": "the third military truck"
             }
         ]
     },
@@ -9649,6 +10689,11 @@
                 "sent_id": "colby_583",
                 "annotator": "colby",
                 "sent": "the msecond military truck on the road"
+            },
+            {
+                "sent_id": "iralys_596",
+                "annotator": "iralys",
+                "sent": "the second military truck in line"
             }
         ]
     },
@@ -9662,6 +10707,11 @@
                 "sent_id": "colby_584",
                 "annotator": "colby",
                 "sent": "the first military truck on the road"
+            },
+            {
+                "sent_id": "iralys_597",
+                "annotator": "iralys",
+                "sent": "the first military truck in line"
             }
         ]
     },
@@ -9675,6 +10725,11 @@
                 "sent_id": "colby_585",
                 "annotator": "colby",
                 "sent": "the middle military truck in the convoy"
+            },
+            {
+                "sent_id": "iralys_598",
+                "annotator": "iralys",
+                "sent": "the second military truck in line"
             }
         ]
     },
@@ -9688,6 +10743,11 @@
                 "sent_id": "colby_586",
                 "annotator": "colby",
                 "sent": "the first military truck in the convoy"
+            },
+            {
+                "sent_id": "iralys_599",
+                "annotator": "iralys",
+                "sent": "the first military truck in line"
             }
         ]
     },
@@ -9701,6 +10761,11 @@
                 "sent_id": "colby_587",
                 "annotator": "colby",
                 "sent": "the third military truck in the convoy"
+            },
+            {
+                "sent_id": "iralys_600",
+                "annotator": "iralys",
+                "sent": "the last military truck in line"
             }
         ]
     },
@@ -9714,6 +10779,11 @@
                 "sent_id": "colby_588",
                 "annotator": "colby",
                 "sent": "the military truck dead center on the path"
+            },
+            {
+                "sent_id": "iralys_601",
+                "annotator": "iralys",
+                "sent": "the second military truck"
             }
         ]
     },
@@ -9727,6 +10797,11 @@
                 "sent_id": "colby_589",
                 "annotator": "colby",
                 "sent": "the military truck first on the path"
+            },
+            {
+                "sent_id": "iralys_602",
+                "annotator": "iralys",
+                "sent": "the first military truck"
             }
         ]
     },
@@ -9740,6 +10815,11 @@
                 "sent_id": "colby_590",
                 "annotator": "colby",
                 "sent": "trhe third military truck on the path"
+            },
+            {
+                "sent_id": "iralys_603",
+                "annotator": "iralys",
+                "sent": "the last military truck"
             }
         ]
     },
@@ -9753,6 +10833,11 @@
                 "sent_id": "colby_591",
                 "annotator": "colby",
                 "sent": "the military truck second on the road"
+            },
+            {
+                "sent_id": "iralys_604",
+                "annotator": "iralys",
+                "sent": "the middle military truck"
             }
         ]
     },
@@ -9766,6 +10851,11 @@
                 "sent_id": "colby_592",
                 "annotator": "colby",
                 "sent": "the first military truck on the road"
+            },
+            {
+                "sent_id": "iralys_605",
+                "annotator": "iralys",
+                "sent": "the leading military truck"
             }
         ]
     },
@@ -9779,6 +10869,11 @@
                 "sent_id": "colby_593",
                 "annotator": "colby",
                 "sent": "the third military truck on the road"
+            },
+            {
+                "sent_id": "iralys_606",
+                "annotator": "iralys",
+                "sent": "the rear military truck"
             }
         ]
     },
@@ -9792,6 +10887,11 @@
                 "sent_id": "colby_594",
                 "annotator": "colby",
                 "sent": "the second military truck on the road"
+            },
+            {
+                "sent_id": "iralys_607",
+                "annotator": "iralys",
+                "sent": "the center military truck"
             }
         ]
     },
@@ -9805,6 +10905,11 @@
                 "sent_id": "colby_595",
                 "annotator": "colby",
                 "sent": "the first military truck on the road"
+            },
+            {
+                "sent_id": "iralys_608",
+                "annotator": "iralys",
+                "sent": "the first military truck"
             }
         ]
     },
@@ -9818,6 +10923,11 @@
                 "sent_id": "colby_596",
                 "annotator": "colby",
                 "sent": "the third military truck on the road"
+            },
+            {
+                "sent_id": "iralys_609",
+                "annotator": "iralys",
+                "sent": "the last military truck"
             }
         ]
     },
@@ -9831,6 +10941,11 @@
                 "sent_id": "colby_597",
                 "annotator": "colby",
                 "sent": "the second military truck on the road"
+            },
+            {
+                "sent_id": "iralys_610",
+                "annotator": "iralys",
+                "sent": "the middle military truck"
             }
         ]
     },
@@ -9844,6 +10959,11 @@
                 "sent_id": "colby_598",
                 "annotator": "colby",
                 "sent": "the first military truck on the road"
+            },
+            {
+                "sent_id": "iralys_611",
+                "annotator": "iralys",
+                "sent": "the first military truck that appears"
             }
         ]
     },
@@ -9857,6 +10977,11 @@
                 "sent_id": "colby_599",
                 "annotator": "colby",
                 "sent": "the last military truck on the road"
+            },
+            {
+                "sent_id": "iralys_612",
+                "annotator": "iralys",
+                "sent": "the last military truck that appears"
             }
         ]
     },
@@ -9870,6 +10995,11 @@
                 "sent_id": "colby_600",
                 "annotator": "colby",
                 "sent": "the second military truck"
+            },
+            {
+                "sent_id": "iralys_613",
+                "annotator": "iralys",
+                "sent": "the middle military truck that appears"
             }
         ]
     },
@@ -9883,6 +11013,11 @@
                 "sent_id": "colby_601",
                 "annotator": "colby",
                 "sent": "the farthest away military truck"
+            },
+            {
+                "sent_id": "iralys_614",
+                "annotator": "iralys",
+                "sent": "the first military truck"
             }
         ]
     },
@@ -9896,6 +11031,11 @@
                 "sent_id": "colby_602",
                 "annotator": "colby",
                 "sent": "the closest military truck"
+            },
+            {
+                "sent_id": "iralys_615",
+                "annotator": "iralys",
+                "sent": "the last military truck"
             }
         ]
     },
@@ -9909,6 +11049,11 @@
                 "sent_id": "colby_603",
                 "annotator": "colby",
                 "sent": "the military truck behind the white truck"
+            },
+            {
+                "sent_id": "iralys_616",
+                "annotator": "iralys",
+                "sent": "the military truck behind the white van"
             }
         ]
     },
@@ -9922,6 +11067,11 @@
                 "sent_id": "colby_604",
                 "annotator": "colby",
                 "sent": "the first military truck"
+            },
+            {
+                "sent_id": "iralys_617",
+                "annotator": "iralys",
+                "sent": "the military truck following the white box truck"
             }
         ]
     },
@@ -9935,6 +11085,11 @@
                 "sent_id": "colby_605",
                 "annotator": "colby",
                 "sent": "the second military truck"
+            },
+            {
+                "sent_id": "iralys_618",
+                "annotator": "iralys",
+                "sent": "the military truck following the first military truck"
             }
         ]
     },
@@ -9948,6 +11103,11 @@
                 "sent_id": "colby_606",
                 "annotator": "colby",
                 "sent": "the military truck behind the  box truck"
+            },
+            {
+                "sent_id": "iralys_619",
+                "annotator": "iralys",
+                "sent": "the military truck in between the box truck and military truck"
             }
         ]
     },
@@ -9961,6 +11121,11 @@
                 "sent_id": "colby_607",
                 "annotator": "colby",
                 "sent": "the military truck in front of the pickup truck"
+            },
+            {
+                "sent_id": "iralys_620",
+                "annotator": "iralys",
+                "sent": "the military truck in between the military truck and work truck"
             }
         ]
     },
@@ -9974,6 +11139,11 @@
                 "sent_id": "colby_608",
                 "annotator": "colby",
                 "sent": "the military truck behind the box truck"
+            },
+            {
+                "sent_id": "iralys_621",
+                "annotator": "iralys",
+                "sent": "the military truck following the box truck"
             }
         ]
     },
@@ -9987,6 +11157,11 @@
                 "sent_id": "colby_609",
                 "annotator": "colby",
                 "sent": "the military truck behind the other military truck"
+            },
+            {
+                "sent_id": "iralys_622",
+                "annotator": "iralys",
+                "sent": "the second military truck following the first military truck"
             }
         ]
     },
@@ -10000,6 +11175,11 @@
                 "sent_id": "colby_610",
                 "annotator": "colby",
                 "sent": "the military truck in front of the other military truck"
+            },
+            {
+                "sent_id": "iralys_623",
+                "annotator": "iralys",
+                "sent": "the first military truck that appears"
             }
         ]
     },
@@ -10013,6 +11193,11 @@
                 "sent_id": "colby_611",
                 "annotator": "colby",
                 "sent": "the military truck in front of the pickup truck"
+            },
+            {
+                "sent_id": "iralys_624",
+                "annotator": "iralys",
+                "sent": "the second military truck that appears"
             }
         ]
     },
@@ -10026,6 +11211,11 @@
                 "sent_id": "colby_612",
                 "annotator": "colby",
                 "sent": "the military truck behind teh white box truck"
+            },
+            {
+                "sent_id": "iralys_625",
+                "annotator": "iralys",
+                "sent": "the military truck that is first"
             }
         ]
     },
@@ -10039,6 +11229,11 @@
                 "sent_id": "colby_613",
                 "annotator": "colby",
                 "sent": "the military truck in the rear"
+            },
+            {
+                "sent_id": "iralys_626",
+                "annotator": "iralys",
+                "sent": "the military truck that is second"
             }
         ]
     },
