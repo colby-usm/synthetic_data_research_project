@@ -8,7 +8,7 @@ import re
 # CONFIGURATION
 # ==========================================================
 
-JSON_PATH = "./data/real_data_v2/custom_subset/refexps.json"
+JSON_PATH = "./data/synthetic_data_v2/refexps.json"
 OUTPUT_FILE = "refexp_wordcloud.pdf"
 
 # Words to remove from the word cloud (common stopwords or dataset-specific)
