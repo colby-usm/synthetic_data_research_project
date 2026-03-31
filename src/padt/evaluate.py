@@ -1,4 +1,3 @@
-
 import torch
 from transformers import AutoProcessor
 from PaDT import PaDTForConditionalGeneration, VisonTextProcessingClass, parseVRTintoCompletion
@@ -266,3 +265,4 @@ results = {
 print("\nEvaluation Results:")
 for k, v in results.items():
     print(f"{k}: {v:.4f}" if isinstance(v, float) else f"{k}: {v}")
+
