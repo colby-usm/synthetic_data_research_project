@@ -20,7 +20,7 @@ os.environ["PYTORCH_CUDA_ALLOC_CONF"] = "expandable_segments:True"
 
 # Config / Paths
 MODEL_PATH       = "/home/jovyan/models/padt_7b_rec"
-DATA_ROOT_PATH   = Path("~/datasets/synthetic_data/data/synthetic_data/").expanduser()
+DATA_ROOT_PATH   = Path("~/datasets/synthetic_data/data/synthetic_data/")
 ANNOTATIONS_PATH = DATA_ROOT_PATH / "annotations.json"
 IMAGES_PATH      = DATA_ROOT_PATH / "images"
 REFEXPS_PATH     = DATA_ROOT_PATH / "refexps.json"
@@ -38,15 +38,28 @@ train_log = []
 
 print(f"[INFO] Saving checkpoints to: {MODEL_SAVE_PATH}")
 
-DEVICE     = "cuda"
-EPOCHS     = 100
-LR         = 1e-5
-#LR         = 1e-4
-PLOT_EVERY = 1
-BATCH_SIZE = 4
+with open('train_cfg.json', 'r', encoding='utf-8') as file:
+    train_cfg = json.load(file)
+
+# train config
+DEVICE         = train_cfg.get("train").get("device","cpu")
+EPOCHS         = train_cfg.get("train").get("epochs", 100)
+LR             = train_cfg.get("train").get("lr", 1e-5)
+PLOT_EVERY     = train_cfg.get("train").get("plot_every", 1)
+BATCH_SIZE     = train_cfg.get("train").get("batch_size", 4)
+MAX_IMAGE_SIZE = train_cfg.get("train").get("max_image_size", 448*448)
+
+# lora config
+LORA_R         = train_cfg.get("lora").get("r_value", 8)
+LORA_ALPHA     = train_cfg.get("lora").get("alpha_value", 16)
+TARGET_MODULES = train_cfg.get("lora").get("finetuning_modules",["q_proj", "k_proj", "v_proj", "o_proj"])
+LORA_DROPOUT   = train_cfg.get("lora").get("dropout", 0.05)
+LORA_TASK      = train_cfg.get("lora").get("task", "CASUAL_LM")
+LORA_BIAS      = train_cfg.get("lora").get("bias", None)
+
 
 # Helpers
-def resize_image(image: Image.Image, max_pixels: int = 448  * 448) -> Image.Image:
+def resize_image(image: Image.Image, max_pixels: int = 448*448) -> Image.Image:
     orig_w, orig_h = image.size
     scale = min(1.0, (max_pixels / (orig_w * orig_h)) ** 0.5)
     patch_merge = 14 * 2
@@ -261,10 +274,11 @@ def main():
     )
     model = model.to(DEVICE)
 
+
     lora_config = LoraConfig(
-        r=8, lora_alpha=16,
-        target_modules=["q_proj", "k_proj", "v_proj", "o_proj"],
-        lora_dropout=0.05, bias="none", task_type="CAUSAL_LM",
+        r=LORA_R, lora_alpha=LORA_ALPHA,
+        target_modules=TARGET_MODULES,
+        lora_dropout=LORA_DROPOUT, bias=LORA_BIAS, task_type=LORA_TASK,
     )
     model = get_peft_model(model, lora_config)
     model.print_trainable_parameters()

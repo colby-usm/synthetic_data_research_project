@@ -1,0 +1,18 @@
+{
+	  "train": {
+		    "device": "cpu",
+		    "epochs": 100,
+		    "lr": 1e-5,
+		    "plot_every": 1,
+		    "batch_size": 4,
+		    "max_image_size": 200704
+	  },
+		  "lora": {
+		    "r_value": 8,
+		    "alpha_value": 16,
+		    "finetuning_modules": ["q_proj", "k_proj", "v_proj", "o_proj"],
+		    "dropout": 0.05,
+		    "task": "CASUAL_LM",
+		    "bias": null
+	  }
+}
