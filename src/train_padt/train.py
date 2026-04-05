@@ -1,7 +1,7 @@
 import torch
 import torch.nn.functional as F
 from torch.utils.data import Dataset, DataLoader
-from transformers import AutoProcessor
+from transformers import AutoProcessor, AutoModelForSeq2SeqLM
 from peft import LoraConfig, get_peft_model
 from PaDT import PaDTForConditionalGeneration, VisonTextProcessingClass, parseVRTintoCompletion
 from qwen_vl_utils import process_vision_info
@@ -16,21 +16,34 @@ import json
 import numpy as np
 import os
 
+
 os.environ["PYTORCH_CUDA_ALLOC_CONF"] = "expandable_segments:True"
 
-# Config / Paths
-MODEL_PATH       = "/home/jovyan/models/padt_7b_rec"
-DATA_ROOT_PATH   = Path("~/datasets/synthetic_data/data/synthetic_data/")
+
+# ------------------------
+# Load config
+# ------------------------
+with open('train_cfg.json', 'r', encoding='utf-8') as file:
+    train_cfg = json.load(file)
+
+# ------------------------
+# Paths
+# ------------------------
+MODEL_PATH       = Path(train_cfg.get("padt_7b_rec"))  # directory to check / download
+DATA_ROOT_PATH   = Path(train_cfg.get("directories").get("synthetic_data", "synthetic_data"))
 ANNOTATIONS_PATH = DATA_ROOT_PATH / "annotations.json"
 IMAGES_PATH      = DATA_ROOT_PATH / "images"
 REFEXPS_PATH     = DATA_ROOT_PATH / "refexps.json"
 
-ZOO_ROOT = Path("~/zoo/padt_training").expanduser()
+ZOO_ROOT = Path(train_cfg.get("training_sessions", "training_sessions"))
+ZOO_ROOT.mkdir(parents=True, exist_ok=True)
+
 RUN_ID   = max([0] + [int(p.name.split("_")[-1]) for p in ZOO_ROOT.glob("run_*") if p.name.startswith("run_")]) + 1
 RUN_PATH = ZOO_ROOT / f"run_{RUN_ID}"
 MODEL_SAVE_PATH = RUN_PATH / "models"
 RUN_PATH.mkdir(parents=True, exist_ok=True)
 MODEL_SAVE_PATH.mkdir(exist_ok=True)
+
 LOG_PATH  = MODEL_SAVE_PATH / "train_log.json"
 PLOT_PATH = MODEL_SAVE_PATH / "training_curves.png"
 
@@ -38,24 +51,44 @@ train_log = []
 
 print(f"[INFO] Saving checkpoints to: {MODEL_SAVE_PATH}")
 
-with open('train_cfg.json', 'r', encoding='utf-8') as file:
-    train_cfg = json.load(file)
+# ------------------------
+# Train config
+# ------------------------
+DEVICE         = train_cfg.get("train", {}).get("device","cpu")
+EPOCHS         = train_cfg.get("train", {}).get("epochs", 100)
+LR             = train_cfg.get("train", {}).get("lr", 1e-5)
+PLOT_EVERY     = train_cfg.get("train", {}).get("plot_every", 1)
+BATCH_SIZE     = train_cfg.get("train", {}).get("batch_size", 4)
+MAX_IMAGE_SIZE = train_cfg.get("train", {}).get("max_image_size", 448*448)
 
-# train config
-DEVICE         = train_cfg.get("train").get("device","cpu")
-EPOCHS         = train_cfg.get("train").get("epochs", 100)
-LR             = train_cfg.get("train").get("lr", 1e-5)
-PLOT_EVERY     = train_cfg.get("train").get("plot_every", 1)
-BATCH_SIZE     = train_cfg.get("train").get("batch_size", 4)
-MAX_IMAGE_SIZE = train_cfg.get("train").get("max_image_size", 448*448)
+# ------------------------
+# LoRA config
+# ------------------------
+LORA_R         = train_cfg.get("lora", {}).get("r_value", 8)
+LORA_ALPHA     = train_cfg.get("lora", {}).get("alpha_value", 16)
+TARGET_MODULES = train_cfg.get("lora", {}).get("finetuning_modules", ["q_proj","k_proj","v_proj","o_proj"])
+LORA_DROPOUT   = train_cfg.get("lora", {}).get("dropout", 0.05)
+LORA_TASK      = train_cfg.get("lora", {}).get("task", "CASUAL_LM")
+LORA_BIAS      = train_cfg.get("lora", {}).get("bias", None)
 
-# lora config
-LORA_R         = train_cfg.get("lora").get("r_value", 8)
-LORA_ALPHA     = train_cfg.get("lora").get("alpha_value", 16)
-TARGET_MODULES = train_cfg.get("lora").get("finetuning_modules",["q_proj", "k_proj", "v_proj", "o_proj"])
-LORA_DROPOUT   = train_cfg.get("lora").get("dropout", 0.05)
-LORA_TASK      = train_cfg.get("lora").get("task", "CASUAL_LM")
-LORA_BIAS      = train_cfg.get("lora").get("bias", None)
+# ------------------------
+# Load / download model
+# ------------------------
+if MODEL_PATH.exists() and (MODEL_PATH / "config.json").exists() and (MODEL_PATH / "pytorch_model.bin").exists():
+    print(f"[INFO] Loading model from {MODEL_PATH}")
+    processor = AutoProcessor.from_pretrained(MODEL_PATH)
+    model = AutoModelForSeq2SeqLM.from_pretrained(MODEL_PATH)
+else:
+    print("[INFO] Downloading model from Hugging Face...")
+    processor = AutoProcessor.from_pretrained("PaDT-MLLM/PaDT_REC_7B")
+    model = AutoModelForSeq2SeqLM.from_pretrained("PaDT-MLLM/PaDT_REC_7B")
+
+    MODEL_PATH.mkdir(parents=True, exist_ok=True)
+    processor.save_pretrained(MODEL_PATH)
+    model.save_pretrained(MODEL_PATH)
+    print(f"[INFO] Model saved to {MODEL_PATH}")
+
+print("[INFO] Model and processor ready.")
 
 
 # Helpers
