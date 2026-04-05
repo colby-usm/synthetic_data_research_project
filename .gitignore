@@ -46,3 +46,6 @@ dist/
 # Misc
 *.swp
 *.DS_Store
+
+#PaDT submodule
+PaDt/
