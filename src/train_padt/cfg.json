@@ -19,5 +19,10 @@
 		    "dropout": 0.05,
 		    "task": "CASUAL_LM",
 		    "bias": null
+	  },
+	
+	  "eval": {
+		  "model": null,
+		  "real_data": "../../data/real_data/custom_subset/"
 	  }
 }

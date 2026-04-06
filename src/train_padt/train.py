@@ -23,7 +23,7 @@ os.environ["PYTORCH_CUDA_ALLOC_CONF"] = "expandable_segments:True"
 # ------------------------
 # Load config
 # ------------------------
-with open('train_cfg.json', 'r', encoding='utf-8') as file:
+with open('cfg.json', 'r', encoding='utf-8') as file:
     train_cfg = json.load(file)
 
 # ------------------------

@@ -49,3 +49,8 @@ dist/
 
 #PaDT submodule
 PaDt/
+
+
+zoo/*
+!zoo/
+!zoo/.gitkeep

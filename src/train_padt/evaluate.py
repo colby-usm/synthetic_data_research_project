@@ -10,8 +10,12 @@ import json
 # ----------------------
 # Config / Paths
 # ----------------------
-MODEL_PATH = "/home/jovyan/models/padt_7b_rec"
-DATA_ROOT_PATH = Path("~/datasets/synthetic_data/data/real_data_v2/custom_subset").expanduser()
+with open('cfg.json', 'r', encoding='utf-8') as file:
+    cfg = json.load(file)
+
+
+MODEL_PATH = cfg.get("eval").get("model")
+DATA_ROOT_PATH = Path(cfg.get("eval").get("real_data"))
 ANNOTATIONS_PATH = DATA_ROOT_PATH / "annotations.json"
 IMAGES_PATH = DATA_ROOT_PATH / "images"
 REFEXPS_PATH = DATA_ROOT_PATH / "refexps.json"
