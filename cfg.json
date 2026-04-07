@@ -1,8 +1,8 @@
 {
 	  "directories" : {
-		"synthetic_data": "../../data/synthetic_data/",
-		"padt_7b_rec": "../../zoo/padt_7b_rec",
-		"training_zoo": "../../zoo/training_sessions"
+		"synthetic_data": "data/synthetic_data/",
+		"padt_7b_rec": "zoo/padt_7b_rec",
+		"training_zoo": "zoo/training_sessions"
 	},
 	  "train": {
 		    "device": "cpu",
@@ -23,6 +23,6 @@
 	
 	  "eval": {
 		  "model": null,
-		  "real_data": "../../data/real_data/custom_subset/"
+		  "real_data": "data/real_data/custom_subset/"
 	  }
 }
