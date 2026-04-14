@@ -111,9 +111,9 @@ def main():
 
     # ==== PLOTTING ====
     plot_keys = ["width", "height", "area", "aspect_ratio"]
-    n_plots = len(plot_keys)
 
-    fig, axes = plt.subplots(1, n_plots, figsize=(4 * n_plots, 6))
+    fig, axes = plt.subplots(2, 2, figsize=(10, 8))
+    axes = axes.flatten()
 
     for i, key in enumerate(plot_keys):
         create_boxplot(
@@ -123,11 +123,18 @@ def main():
             key.replace("_", " ").title(),
         )
 
+    # Clean layout for PDF
     plt.tight_layout()
+    plt.subplots_adjust(left=0.06, right=0.98, top=0.95, bottom=0.08)
 
-    # Save high-res without affecting display size
-    plt.savefig("bbox_domain_gap_row.png", dpi=600, bbox_inches='tight')
-    print("\nSaved plot to bbox_domain_gap_row.png")
+    # Save BEFORE show
+    plt.savefig(
+        "bbox_domain_gap_row.pdf",
+        bbox_inches='tight',
+        pad_inches=0
+    )
+
+    print("\nSaved plot to bbox_domain_gap_row.pdf")
 
     plt.show()
 

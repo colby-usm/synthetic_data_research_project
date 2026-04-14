@@ -199,7 +199,7 @@ box_data = [intra_real_flat, intra_syn_flat, cross_sim_flat]
 labels_box = ["Real-Real", "Synthetic-Synthetic", "Real-Synthetic"]
 colors_box = ["blue", "red", "purple"]
 
-plt.figure(figsize=(10, 6))
+plt.figure(figsize=(6, 4))
 
 box = plt.boxplot(box_data, vert=True, patch_artist=True)
 
@@ -213,7 +213,6 @@ for median in box['medians']:
 
 plt.xticks([1, 2, 3], labels_box)
 plt.ylabel("Cosine similarity")
-plt.title("Cosine Similarity Distributions: Intra vs Cross Domain")
 
 # ------------------------
 # Annotate 5-number summaries
@@ -242,5 +241,14 @@ for i, summary in enumerate(summaries):
 
 plt.grid(axis='y', linestyle='--', alpha=0.7)
 plt.tight_layout()
-plt.savefig("similarity_boxplot.png", dpi=300, bbox_inches='tight')
+#plt.savefig("similarity_boxplot.png", dpi=300, bbox_inches='tight')
+
+plt.subplots_adjust(left=0.05, right=0.98, top=0.95, bottom=0.08)
+plt.savefig(
+    "similarity_boxplot.pdf",
+    format="pdf",
+    bbox_inches="tight",
+    pad_inches=0
+)
+
 plt.show()

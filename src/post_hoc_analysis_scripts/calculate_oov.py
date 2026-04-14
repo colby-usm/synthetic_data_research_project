@@ -201,5 +201,9 @@ v.get_label_by_id('10').set_text(len(synthetic_only))
 v.get_label_by_id('01').set_text(len(real_only))
 v.get_label_by_id('11').set_text(overlap_count)
 
-plt.title("Vocabulary Overlap (Synthetic vs Real)")
+#plt.title("Vocabulary Overlap (Synthetic vs Real)")
+
+plt.savefig("jaccard_metrics.pdf",
+            bbox_inches='tight',
+            pad_inches=0)
 plt.show()
